@@ -1,0 +1,280 @@
+<!--
+    
+    Nicholas Engelhard
+    njewwc
+    2-15-2019
+
+-->
+
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+    
+    
+    <meta charset="utf-8">
+        
+        
+        
+        <title>Posters</title>
+        
+        <style>
+            body{
+                background-color: lightpink;
+            }
+            #wrapper{
+                width: 80%;
+                background-color: white;
+                box-shadow: 10px 10px 20px red;
+                
+                margin-top: 10px;
+                margin-bottom: 10px;
+                
+                margin-left: 100px;
+                margin-right: 40px;
+                
+                border: 2px outset;
+                border-color: aqua;
+                
+                height: 320px;
+              
+            }
+            table{
+                border-collapse: collapse;
+                width: 100%;
+                
+            }
+            .centerAlign{
+                
+                text-align: center;
+            }
+            table,td{
+            font-family: arial,helvetica,sans-serif;
+                border: 1px solid black;
+                
+            }
+            
+
+            .header{
+                text-align: center;
+                font-family: "Permanent Marker",cursive,arial;
+                background-color: aqua;
+                color: purple;
+                border: 1px solid black;
+            }
+            
+            .tableHead{
+                
+                background-color: lightgoldenrodyellow;
+                color: darkblue;
+                border: 1px solid black;
+            }
+        
+            .showtime{
+                border-bottom: 1px solid black;
+                padding: 20px;
+                text-align: center;
+            }
+            
+            .evenRow{
+                
+                background-color: gainsboro;
+            }
+            .oddRow{
+                background-color: white;
+            }
+            .before5{
+                background-color: red;
+                
+            }
+            .image1{
+                height: 200px;
+                text-align: center
+            }
+            
+        
+            .image2{
+                height: 300px;
+                width: 20%;
+                float: left;
+                border: 1px solid black;
+                margin: 10px;
+                
+            }
+            .middle{
+                
+                width: 40%;
+                display: inline-block;
+                font-family: fantasy;
+                margin-top: 10px;
+                text-align: left;
+                
+            }
+            .hrEdit{
+                width: 69%;
+                display: inline-block
+                
+            }
+           
+            .position{
+                position: absolute;
+                bottom: -200px;
+            }
+            
+            .right{
+                display: inline-block;
+                width: 35%;
+                
+                font-family: monospace;
+                
+                font-size: 15px;
+                
+                margin-top: 10px;
+                
+                text-align: right;
+                
+                
+                
+            }
+            
+        </style>
+    
+    </head>
+    
+        <body>
+        
+        
+          
+                <table>
+                    <tr>
+                <td class="header" colspan="7"><h1>Movie theater showtimes</h1></td>
+                    </tr>
+                <tr>
+                <td class ="header" colspan="7"><h2>feb 15 2019</h2></td>
+                </tr>
+                
+                  
+                
+                <tr>
+                    
+                <th class="tableHead">poster</th>
+                    
+                <th class="tableHead">movie</th>
+                    
+                <th class="centerAlign tableHead">Rating</th>    
+                    
+                <th class="tableHead">Length</th>
+                    
+                <th class="centerAlign tableHead" colspan="2">showtimes</th>
+                    
+                <th class="tableHead">amenities</th>
+                    
+                </tr>
+                
+                
+                <tr class="evenRow">
+                    <td class="image1"> <img class="image1" src="legoMovie.jpg" alt="lego"></td>
+                    <td > Lego Movie 2</td>
+                    <td class="centerAlign"> PG</td>
+                    <td>106 Mins</td>
+                    
+                    
+                        
+                    <td>
+                        
+                        <div class="before5 showtime">4:05 PM</div>
+                        <div class="before5 showtime">4:30 PM</div>
+                        <div class="showtime">6:40 PM</div>
+                        <div class="showtime">7:10 PM</div>
+                        
+                        
+                          
+                        
+                    
+                    </td>
+                    <td>
+                    <div class="showtime"> 9:25 PM</div>
+                    <div class="showtime">10:00 PM</div>
+                    <div class="showtime"> 10:45 PM</div>
+                    <div class="showtime">11:15 PM</div>
+                    </td>
+                    
+                    <td>Closed Captions,<br/> Descriptive Video, <br/>Stadium seating</td>
+                </tr>
+                
+                
+                <tr class="oddRow">
+                    <td class="image1"><img class="image1" src="alita.jpg" alt="alita"></td>
+                    <td>Alita: Battle Angel</td>
+                    <td class="centerAlign">PG-13</td>
+                    <td>122 Mins</td>
+                    <td>
+                        <div class="before5 showtime">1:05 PM</div>
+                        <div class="before5 showtime">2:30 PM</div>
+                        <div class="before5 showtime">3:40 PM</div>
+                        <div class="before5 showtime">4:10 PM</div>
+                        
+                        </td>
+                    <td>
+                        <div class="showtime">5:05 PM</div>
+                        <div class="showtime">6:30 PM</div>
+                        <div class="showtime">7:40 PM</div>
+                        <div class="showtime">8:10 PM</div>
+                        
+                    </td>
+                    <td>Closed Captions,<br/> Descriptive Video, <br/>Stadium seating</td>
+                </tr>
+            
+               
+            
+            
+            
+            </table>
+        <div id="wrapper">
+            <div>
+                <img class="image2" src="alita.jpg" alt="alita">
+            
+                </div>
+            
+            <div class="middle">
+            
+                <div>Alita: Battle Angel</div>
+                <hr class="hrEdit">
+                <div>PG-13 | 122 Mins</div>
+                
+                <div class="position">CC | DV | SS</div>
+            
+            
+            
+            </div>
+        
+                 
+            <div class="right">
+            
+                <div>Viewing Times</div>
+                <hr class="hrEdit">
+                
+                <div>1:05 PM</div>
+                 <div>2:30 PM</div>
+                 <div>3:40 PM</div>
+                 <div>4:10 PM</div>
+                 <div>5:05 PM</div>
+                 <div>6:30 PM</div>
+                 <div>7:40 PM</div>
+                 <div>8:10 PM</div>
+                
+                
+             
+            
+            
+            
+            </div>
+        
+            
+            </div>
+        </body>
+        
+        
+        
+    
+    
+    
